@@ -40,7 +40,7 @@ contract('ERC721Token', accounts => {
         beforeEach(async function () { 
             await this.contract.mint(tokenId, {from: user1})
 
-            tx = await this.contract.transferFrom(user1, user2, tokenId, {from: user1})
+            tx = await this.contract.safeTransferFrom(user1, user2, tokenId, {from: user1})
         })
 
         it('token has new owner', async function () { 
