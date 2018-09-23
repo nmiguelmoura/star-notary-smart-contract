@@ -1,0 +1,5 @@
+- Contract address: 0x6630166F1dCC3A9a5e13A756c085966a36e1FDC4
+- Contract Hash: 0xa8ce87374ecb8a68566a5441c8307e5c1aeef02bbcee50c34fc7211ff294d7a9
+- Transaction Hash for str creation: 0xc6a8c5370a76f0f79dd210ba9dab5ea9cf1381b27f3744f8c6f882028598acd0
+- TokenId for newly created star: 1
+- Transaction Hash for putForSale function: 0x8a6ae4f5e8e5a6160e305b4ab6130092cf1187321c3914484e0aae3cb20867e7

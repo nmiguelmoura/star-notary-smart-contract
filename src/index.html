@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Star Notary</title>
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+<h1>Star Notary</h1>
+<div class="buttons">
+    <button class="create-star-button" data-name="createStar">Create a star</button>
+    <button class="search-star-button" data-name="searchStar">Search for a star</button>
+</div>
+<div id="createStar" class="frame-hide">
+    <h2>Create a new star</h2>
+    <form>
+        <div>
+            <label>Name</label>
+            <input type="text" name="createName" class="input-create-name">
+        </div>
+        <div>
+            <label>Story</label>
+            <input type="text" name="createStory" class="input-create-story">
+        </div>
+        <div>
+            <label>Dec</label>
+            <input type="text" name="createDec" class="input-create-dec">
+        </div>
+        <div>
+            <label>Mag</label>
+            <input type="text" name="createMag" class="input-create-mag">
+        </div>
+        <div>
+            <label>Cent</label>
+            <input type="text" name="createCent" class="input-create-cent">
+        </div>
+        <div>
+            <label>Token Id</label>
+            <input type="text" name="createToken" class="input-create-token">
+        </div>
+        <button type="submit" name="create-submit" class="create-submit-button">Submit</button>
+    </form>
+</div>
+<div id="searchStar" class="frame-hide">
+    <h2>Search for a star</h2>
+    <form>
+        <div>
+            <label>Token Id</label>
+            <input type="text" name="searchToken" class="input-search-token">
+        </div>
+        <button type="submit" name="search-submit" class="search-submit-button">Submit</button>
+    </form>
+</div>
+<div class="results">
 
+</div>
+<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+<script src="js/Result.js"></script>
+<script src="js/Search.js"></script>
+<script src="js/Create.js"></script>
+<script src="js/App.js"></script>
 </body>
 </html>
